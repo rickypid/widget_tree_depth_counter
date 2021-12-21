@@ -58,7 +58,7 @@ flutter pub get
 run following command:
 
 ```bash
-flutter pub add provider
+flutter pub add widget_tree_depth_counter
 ```
 
 ### Basic setup

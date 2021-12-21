@@ -1,6 +1,6 @@
 name: widget_tree_depth_counter
 description: Widget to count the amount of nested widget tree, useful in the dynamic construction of the interface when it is important to know the depth of widget.
-version: 0.0.1-alpha
+version: 1.0.0
 repository: https://github.com/rickypid/widget_tree_depth_counter
 issue_tracker: https://github.com/rickypid/widget_tree_depth_counter/issues
 
