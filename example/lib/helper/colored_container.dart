@@ -1,3 +1,4 @@
+// Flutter imports:
 import 'package:flutter/material.dart';
 
 class ColoredContainer extends StatelessWidget {
@@ -15,7 +16,7 @@ class ColoredContainer extends StatelessWidget {
       children: [
         Container(
           color: color,
-          margin: EdgeInsets.all(20),
+          margin: const EdgeInsets.all(20),
           child: child,
         ),
         Align(

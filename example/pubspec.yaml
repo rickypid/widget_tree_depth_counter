@@ -1,9 +1,9 @@
 name: widget_tree_depth_counter_example
 description: Widget to count the amount of nested widget tree, useful in the dynamic construction of the interface when it is important to know the depth of widget.
-version: 1.0.1
+version: 1.1.0
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: '>=2.19.6 <3.0.0'
 
 dependencies:
   flutter:
@@ -15,6 +15,8 @@ dev_dependencies:
     sdk: flutter
   widget_tree_depth_counter:
     path: ../
+  flutter_lints: ^2.0.1
+  import_sorter: ^4.6.0
 
 flutter:
   uses-material-design: true

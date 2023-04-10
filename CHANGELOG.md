@@ -1,5 +1,9 @@
 # Widget Tree Depth Counter
 
+## [1.1.0] - 2023-04-10
+#### [@rickypid](https://github.com/rickypid)
+- Update SDK version.
+
 ## [1.0.1] - 2022-01-25
 #### [@rickypid](https://github.com/rickypid)
 - Improved documentations.
