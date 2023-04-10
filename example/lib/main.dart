@@ -1,10 +1,19 @@
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Package imports:
 import 'package:widget_tree_depth_counter/widget_tree_depth_counter.dart';
+
+// Project imports:
 import 'package:widget_tree_depth_counter_example/helper/colored_container.dart';
 
-void main() => runApp(MyApp());
+// ignore: depend_on_referenced_packages
+
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,7 +27,8 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key}) : super(key: key);
 
-  _MyHomePageState createState() => _MyHomePageState();
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
@@ -29,10 +39,8 @@ class _MyHomePageState extends State<MyHomePage> {
         title: const Text('Widget tree depth counter'),
         centerTitle: true,
       ),
-      body: Container(
-        child: Center(
-          child: ColorExample(),
-        ),
+      body: const Center(
+        child: ColorExample(),
       ),
     );
   }
@@ -43,7 +51,7 @@ class ColorExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return LayoutBuilder(
-      builder: (context, constraints) => Container(
+      builder: (context, constraints) => SizedBox(
         width: constraints.maxWidth * .9,
         height: constraints.maxHeight * .9,
         child: WidgetTreeDepthCounter(
