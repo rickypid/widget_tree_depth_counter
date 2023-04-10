@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 
 // Package imports:
+// ignore: depend_on_referenced_packages
 import 'package:widget_tree_depth_counter/widget_tree_depth_counter.dart';
 
 // Project imports:
